@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { IncrementCounter,DecrementCounter } from "../actions/";
+import { IncrementCounter, DecrementCounter } from "../redux/actions";
 import "./CounterPage.css";
 import ButtonCounter from "../components/counterButton/CounterButton";
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { Provider } from "react-redux";
 import CounterPage from "./page/CounterPage";
-import Store from "./components/store/Store";
+import Store from "./redux/store/Store";
 
 function App() {
   return (
