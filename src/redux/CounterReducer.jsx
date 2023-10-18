@@ -1,6 +1,6 @@
-import { counter } from "../../utilities";
+import { counter } from "../actions/constants";
 
-const ReducerCounter = (state = counter, action) => {
+const CounterReducer = (state = counter, action) => {
   switch (action.type) {
     case "counterIncrease":
       return { count: state.count + 1 };
@@ -14,4 +14,4 @@ const ReducerCounter = (state = counter, action) => {
   }
 };
 
-export default ReducerCounter;
+export default CounterReducer;
